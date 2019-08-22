@@ -1,5 +1,5 @@
 <template>
-  <div class="tmpContainer">
+  <div class="tmpContainer" @tap="toDetail">
     <div class="avatar_data">
       <img :src="item.avatar" alt="">
       <span>{{ item.date }}</span>
@@ -57,6 +57,11 @@ export default {
   padding: 10rpx;
   font-size: 40rpx;
   font-weight: bold;
+}
+
+.detail_img {
+  width: 100%;
+  height: 460rpx;
 }
 
 .content {
