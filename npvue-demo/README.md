@@ -1,6 +1,8 @@
 # npvue-demo
 
-> A Mpvue project
+> 一个mpvue练手项目
+
+[mpvue的使用介绍和总结](./mpvue.md)
 
 ## Build Setup
 
