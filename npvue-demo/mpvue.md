@@ -118,6 +118,13 @@ app.$mount()
   + wx.redirectTo() 不保留，不能回退
   + wx.switchTab()  用于tabBar页面
 
+```javascript
+// 使用this.$mp.query可以拿到路由的参数信息
+mounted() {
+  let param = this.$mp.query;
+}
+```
+
 ### axios 
 1. 小程序不支持axios 会报错：XMLHttpRequest is not a constructor
 2. 原因: 小程序的环境和浏览器的环境不一样（小程序没有window对象）
