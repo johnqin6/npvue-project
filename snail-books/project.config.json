@@ -11,6 +11,7 @@
 	"compileType": "miniprogram",
 	"appid": "wxfe68aeb5d19f6a93",
 	"projectname": "snail-books",
+	"qcloudRoot": "server/",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
